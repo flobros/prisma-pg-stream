@@ -1,0 +1,22 @@
+{
+  "name": "prisma-pg-stream",
+  "version": "0.4.0",
+  "description": "Prisma Stream Client Extension for PostgreSQL",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "https://github.com/flobros/prisma-pg-stream",
+  "scripts": {
+    "prepublishOnly": "tsc"
+  },
+  "keywords": ["prisma-extension", "prisma-client", "prisma", "streams"],
+  "author": "tr1cks",
+  "license": "MIT",
+  "devDependencies": {
+    "@prisma/client": "^5.1.1",
+    "@types/node": "^20.5.1",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "@prisma/client": "^5.1.1"
+  }
+}
