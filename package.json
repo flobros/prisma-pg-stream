@@ -1,6 +1,6 @@
 {
   "name": "prisma-pg-stream",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Prisma Stream Client Extension for PostgreSQL",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
