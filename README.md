@@ -8,7 +8,7 @@ Prisma Stream Client Extension for PostgreSQL
 First, install the necessary dependencies:
 
 ```sh
-npm install @prisma/client prisma-pg-stream
+npm install @prisma/client prisma-pg-stream pg
 ```
 
 ### Stream Usage
