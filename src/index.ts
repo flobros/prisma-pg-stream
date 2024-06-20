@@ -1,7 +1,6 @@
 import { Prisma, PrismaClient, PrismaClientExtends } from "@prisma/client/extension";
 import { DefaultArgs } from "@prisma/client/runtime/library";
 import { Client } from 'pg';
-import util from 'util';
 
 type OperationType = 'INSERT' | 'UPDATE' | 'DELETE';
 
